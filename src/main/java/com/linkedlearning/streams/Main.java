@@ -21,6 +21,6 @@ public class Main {
         half = half.andThen(a -> 4 * a); // Multiply by 4
         System.out.println(half.apply(13));
 
-        // there are a lot of predefined functional interface in Java see java documentation
+        // there are a lot of predefined functional interfaces in Java
     }
 }
